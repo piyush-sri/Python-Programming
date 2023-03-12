@@ -1,5 +1,5 @@
 
-# Python Games Repository
+# Python Projects Repository
 
 This repository contains various Python games and projects of different levels, including basic, intermediate, and advanced projects. These projects are designed to help you improve your Python programming skills and have fun while doing it.
 
