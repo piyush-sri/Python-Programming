@@ -144,7 +144,7 @@ git push -u origin <your_branch_name>
 
 **14.** Click on `Create Pull Request`.
 
-**15.** Voila :exclamation: You have made a PR to the OneLinerNotes project :boom: . Sit back patiently and relax while the project maintainers review your PR. Please understand, at times the time taken to review a PR can vary from a few hours to a few days.
+**15.** Voila :exclamation: You have made a PR to the Python Projects Repository :boom: . Sit back patiently and relax while the project maintainers review your PR. Please understand, at times the time taken to review a PR can vary from a few hours to a few days.
 
 
 ## Follow Me
