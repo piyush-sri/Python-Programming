@@ -8,7 +8,7 @@ This repository contains various Python games and projects of different levels, 
 - <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#installation">Installation</a>
 - <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#usage">Usage</a>
 - <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#games-and-projects">Games and Projects</a>
-- Licencse
+- <a href="https://github.com/piyush-sri/Python-Programming/blob/main/Python%20Projects/readme.md#license">Licencse</a>
 - <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#how-to-get-started
 ">How to Get Started?</a>
 - <a href= "https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#contributing-guidelines" >Contributing Guidelines</a>
