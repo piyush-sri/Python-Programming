@@ -6,10 +6,12 @@ This repository contains various Python games and projects of different levels, 
 
 ## Table of Contents
 - <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#installation">Installation</a>
-- Usage
-- Games and Projects
+- <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#usage">Usage</a>
+- <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#games-and-projects">Games and Projects</a>
 - Licencse
-- Contributing Guidelines
+- <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#how-to-get-started
+">How to Get Started?</a>
+- <a href= "https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#contributing-guidelines" >Contributing Guidelines</a>
 ## Installation
 
 To use the games and projects in this repository, you need to have Python 3.x installed on your computer. You can download the latest version of Python from the official Python website at https://www.python.org/downloads/.
