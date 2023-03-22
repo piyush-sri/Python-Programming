@@ -5,7 +5,7 @@ This repository contains various Python games and projects of different levels, 
 
 
 ## Table of Contents
-- Installation
+- <a href="https://github.com/piyush-sri/Python-Programming/tree/main/Python%20Projects#installation">Installation</a>
 - Usage
 - Games and Projects
 - Licencse
