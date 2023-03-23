@@ -75,6 +75,26 @@ Here's a list of the games and projects included in this repository:
 - Turtle Racing Game
 - Ping Pong Game
 - Turtle Road Crossing Game
+- Mail Merge Project
+- US States Data Analysis Game
+- POMODORO App
+- Password Manager Version1
+- Password Manager Version2
+- Automated Birthday Wisher Project
+- ISS Overhead Notifier Project
+- Rain Alert Notifier Project
+- Stock News Monitoring Project
+- Habit Tracker Project
+- Workout Tracking Project
+- Cheap Flight Finder
+- Musical Time Machine Project
+- Amazon Price Tracker Project
+- Automated Job Application using Selenium
+- Auto Tinder Swapping Bot
+- Complaining Twitter Bot
+- Instagram Follower Bot
+- Data Entry Job Automation
+ 
 
 Each project folder contains its own README file with more information about the project.
 ## How to Get Started❓
