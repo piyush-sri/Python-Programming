@@ -52,13 +52,29 @@ Here's a list of the games and projects included in this repository:
 - Treasure Island Game
     - Treasure Island Game
     - Treasure Map Game
-- ......updating
+- Python Calculator
+- Python Pizza Bill Generator
 
 ###  Intermediate
 - Rock Paper Scissor Game
 - Hangman Game
 - Cryptic Shuffle Game
-- .....updating
+- Coffee Machine
+- Closed Bid Auction Game
+- King's Court 21 Game
+- NUMBO JUMBO Game
+- Quiz App
+- Random Walk
+- SketchBook
+- Spirograph
+- Turtle Shapes
+- Turtle Spot Painting
+
+###Advanced
+- Snake Game
+- Turtle Racing Game
+- Ping Pong Game
+- Turtle Road Crossing Game
 
 Each project folder contains its own README file with more information about the project.
 ## How to Get Started❓
