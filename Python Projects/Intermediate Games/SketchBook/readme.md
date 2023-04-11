@@ -1,5 +1,7 @@
 # Live Demo
+
 https://user-images.githubusercontent.com/67270567/226549542-cd786152-fcb2-43f9-ba1d-6d6994775f33.mp4
+
 Press the Play button to See the Output
 
 # Line by Line Explanation of the Code
@@ -86,3 +88,12 @@ The code sets up an event listener using the `listen()` method on the window obj
   - When the `a` key is pressed, the `move_left()` function is called.
   - When the `d` key is pressed, the `move_right()` function is called.
   - When the `c` key is pressed, the `clear()` function is called.
+
+```python
+   window.exitonclick()
+```
+7. Exiting the Program
+
+The` exitonclick()` method is called on the window object to keep the window open until the user clicks on it, allowing them to view their drawings.
+
+8. In summary, the code sets up a simple drawing application that allows users to move a turtle around the screen and create drawings using basic keyboard input. It sets up event listeners to detect keyboard input, and responds to the input by calling specific functions to control the turtle's movement. The `clear()` function is defined to clear the screen, and the `exitonclick()` method is used to keep the window open until the user clicks on it.
