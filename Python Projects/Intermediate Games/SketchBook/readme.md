@@ -21,7 +21,7 @@ The code starts by importing the necessary libraries `Turtle` and `Screen` from 
 Two objects are created, `orbit` and `window`, using the `Turtle()` and `Screen()` functions respectively. The orbit object is assigned to the `turtle`, and the window object is assigned to the `window`.
 
 ```python
-   orbit.pensize(10)
+  orbit.pensize(10)
   orbit.pencolor("red")
   orbit.shape("turtle")
 ```
@@ -34,7 +34,7 @@ Several properties of the turtle object are set using the following lines of cod
   - `orbit.shape("turtle")` sets the shape of the turtle to the default turtle shape.
   
  ```python
-    def move_forward():
+ def move_forward():
     orbit.forward(10)
 
 def move_backward():
@@ -76,7 +76,6 @@ window.onkey(move_backward,"s")
 window.onkey(move_left,"a")
 window.onkey(move_right,"d")
 window.onkey(clear,"c")
-window.exitonclick()
 ```
 6. **Setting up Event Listener**
 
