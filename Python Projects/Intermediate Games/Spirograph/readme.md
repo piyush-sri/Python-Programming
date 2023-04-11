@@ -54,7 +54,19 @@ Play the Video to see the Output
         tim.setheading(tim.heading() + size_of_gap)
         tim.speed(20)
 ```
-4.  
+4.  The code above defines a function called draw_spirograph that takes a single argument, size_of_gap, which represents the size of the gap between the circles drawn by the turtle object named tim. Here's what the code does in detail:
+
+  - The for loop iterates over a range of values that represent angles in degrees. The number of iterations is determined by dividing 360 degrees (a full circle) by the size_of_gap argument, and converting the result to an integer using the int() function. This determines how many circles will be drawn in the spirograph.
+
+  - Inside the loop, the color of the turtle is set to a randomly generated color using the random_color() function (not shown in the code provided).
+
+  - The circle() method of the turtle object is called with an argument of 100, which specifies the radius of the circle to be drawn. This draws a circle of radius 100.
+
+  - The setheading() method is called on the turtle object, with an argument of tim.heading() + size_of_gap. This updates the direction that the turtle is facing by adding the size_of_gap value to the current heading of the turtle.
+
+  - Finally, the speed() method is called on the turtle object with an argument of 20. This sets the speed of the turtle to 20, which is a moderate speed for drawing the spirograph.
+
+Overall, this code generates a spirograph by drawing a series of circles with random colors and slightly offsetting each subsequent circle by the size_of_gap angle. The size_of_gap argument controls the complexity and density of the spirograph.
 
 ## Customization
 You can customize the appearance of the spirograph by changing the following values in the code:
