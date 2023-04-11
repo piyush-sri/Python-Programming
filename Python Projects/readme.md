@@ -70,7 +70,7 @@ Here's a list of the games and projects included in this repository:
 - Turtle Shapes
 - Turtle Spot Painting
 
-###Advanced
+### Advanced
 - Snake Game
 - Turtle Racing Game
 - Ping Pong Game
