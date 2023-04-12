@@ -124,7 +124,7 @@ def empty_space():
  ```
  This function checks if there are any empty spaces left on the board. If all the spaces are filled, the function returns False. Otherwise, it returns True.
  
- 7. `players list` and `player variable`:
+ 7. **`players list` and `player variable`**:
  
  ```python
  players=["X", "O"]
@@ -133,3 +133,55 @@ def empty_space():
 
  `players` is a list containing the two possible values that can be assigned to the player variable: `"X"` and `"O"`. The player variable is initially assigned a random value from the players list.
  
+
+8. **Base Code**:
+```python
+label = Label(screen, text=player + " Turns ", font=('consolas',40))
+label.pack()
+
+resetButton = Button(screen, text="restart", font=('consolas', 20), command=newGame)
+resetButton.pack(side="top")
+
+frame = Frame(screen)
+frame.pack()
+buttons=[
+    [0,0,0],
+    [0,0,0],
+    [0,0,0]
+]
+
+for row in range(3):
+    for column in range(3):
+        buttons[row][column] = Button(frame, text="", font=("consolas",40), width=4, height=1, command= lambda row=row, column=column: next_turn(row,column))
+        buttons[row][column].grid(row=row,column=column)
+
+
+
+#stopping the screen to wait until close button is clicked
+screen.mainloop()
+```
+Explanation line by line:
+
+- label = Label(screen, text=player + " Turns ", font=('consolas',40)): creates a label widget named label with the specified text and font to display the current player's turn.
+
+- label.pack(): organizes the label widget on the screen using the pack geometry manager.
+
+- resetButton = Button(screen, text="restart", font=('consolas', 20), command=newGame): creates a button widget named resetButton with the specified text, font, and command to execute when the button is clicked.
+
+- resetButton.pack(side="top"): organizes the resetButton widget on the screen using the pack geometry manager and places it at the top.
+
+- frame = Frame(screen): creates a frame widget named frame to hold the buttons.
+
+- frame.pack(): organizes the frame widget on the screen using the pack geometry manager.
+
+- buttons=[ [0,0,0], [0,0,0], [0,0,0] ]: creates a 2D list of zeros to represent the Tic Tac Toe board.
+
+- for row in range(3):: loops through each row of the 2D list.
+
+- for column in range(3):: loops through each column of the current row in the 2D list.
+
+- buttons[row][column] = Button(frame, text="", font=("consolas",40), width=4, height=1, command= lambda row=row, column=column: next_turn(row,column)): creates a button widget at the current row and column with the specified text, font, size, and command to execute when the button is clicked. The lambda function is used to pass the current row and column as arguments to the next_turn() function.
+
+- buttons[row][column].grid(row=row,column=column): organizes the current button widget on the screen using the grid geometry manager.
+
+- screen.mainloop(): starts the main event loop to wait for user input until the close button is clicked, which ends the program.
