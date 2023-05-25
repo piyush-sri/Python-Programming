@@ -1,0 +1,1 @@
+print("Dictionary data type")
